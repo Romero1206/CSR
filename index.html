@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Creaciones Santa Rosa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox hidden">
+    <span id="lightbox-close">&times;</span>
+    <img id="lightbox-img" src="" alt="Vista ampliada" />
+  </div>
+
+  <a href="https://wa.me/5218135154346" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Contactar por WhatsApp">
+  <img src="IMG/ICONOS/WP.png" alt="WhatsApp" />
+  </a>
+
+  
+<body>
+    <!-- <header class="header">
+        <div class="logo-container">
+          <img src="IMG/logo01.jpg" alt="Logo Creaciones Santa Rosa" class="logo" />
+          <h1>Creaciones Santa Rosa</h1>
+        </div>
+        <nav>
+          <a href="#productos">Productos</a>
+          <a href="#personaliza">Personaliza el tuyo</a>
+          <a href="#contacto">Contáctanos</a>
+          <a href="#Empresas">Servicio a Empresas</a>
+        </nav>
+      </header> -->
+
+      <header class="header">
+        <div class="logo-nav">
+          <div class="logo-nombre">
+            <img src="IMG/logo01.jpg" alt="Logo Creaciones Santa Rosa" class="logo" />
+            <h1 class="empresa-nombre">Creaciones Santa Rosa</h1>
+          </div>
+          <button class="hamburguesa" id="menuToggle" aria-label="Menú">&#9776;</button>
+        </div>
+        
+      
+        <nav class="nav" id="nav">
+          <a href="#productos">Productos</a>
+          <a href="#personaliza">Personaliza el tuyo</a>
+          <a href="#contacto">Contáctanos</a>
+          <a href="#Empresas">Servicio a Empresas</a>
+        </nav>
+      </header>
+      
+      
+
+      <section class="hero">
+        <h2>Personalización de vasos térmicos y más</h2>
+        <p>¡Dale color y estilo a tus bebidas con nuestros productos únicos!</p>
+      
+        <div class="carrusel">
+          <div class="carrusel-inner" id="carrusel-inner">
+            <!-- Imágenes se cargan aquí por JS -->
+          </div>
+        </div>
+      </section>
+      
+
+  <section id="productos" class="productos">
+    <h2>Nuestros Productos</h2>
+    <div id="galeria" class="galeria">
+      <!-- Las imágenes se insertan aquí dinámicamente -->
+    </div>
+  </section>
+
+  <section id="personaliza" class="personaliza">
+    <h2>¡Personaliza el tuyo!</h2>
+    <p>Elige tu diseño, color y mensaje. Nosotros lo hacemos realidad.</p>
+    <button onclick="alertaPersonaliza()">Personaliza el tuyo</button>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <p>Escríbenos para pedidos especiales o preguntas.</p>
+    <button onclick="window.location.href='creaciones.lasersr@gmail.com'">Enviar correo</button>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Creaciones Santa Rosa. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
