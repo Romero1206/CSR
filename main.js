@@ -20,7 +20,7 @@ function alertaPersonaliza() {
     });
   
     // Cargar hasta 999 imágenes con nombres IMG001.jpg, IMG002.jpg, etc.
-    for (let i = 1; i <= 999; i++) {
+    for (let i = 1; i <= 150; i++) {
       const numero = String(i).padStart(3, '0');
       const wrapper = document.createElement("div");
       wrapper.classList.add("image-wrapper");
@@ -104,3 +104,4 @@ const nav = document.getElementById("nav");
 menuToggle.addEventListener("click", () => {
   nav.classList.toggle("abierto");
 });
+
